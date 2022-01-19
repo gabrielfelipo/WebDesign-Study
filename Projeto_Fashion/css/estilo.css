@@ -1,0 +1,162 @@
+/* Header */
+
+.hero {
+    background-image: url(../imagens/topo.jpg);
+    height: 600px;
+    background-size: cover;
+    position: sticky;
+}
+
+.hero nav {
+    background-color: rgb(11, 33, 43);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.hero nav ul {
+    list-style: none;
+    position: absolute;
+    right: 80px;
+}
+
+.hero nav li {
+    float: left;
+    display: block;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.hero nav a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.247);
+}
+
+.hero nav a:hover {
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    top: 8px;
+}
+
+/* Main */
+
+
+.content-section {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 280px;
+    margin-bottom: 120px;
+}
+
+.text-section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-section h1 {
+    margin-top: 80px;
+    font-size: 33px;
+    color: rgb(29, 29, 29);
+}
+
+.text-section p {
+    color: rgb(85, 85, 85);
+}
+
+.card-section {
+    margin-top: 80px;
+}
+
+.card-section h3 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 3.5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card-section p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.final-section {
+    font-family: Tahoma;
+    margin-top: 10px;
+    background-image: url(../imagens/bg_detalhe.png);
+    vertical-align: auto;
+    background-position: right bottom;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 61, 82);
+    color: white;
+    border-top: transparent 1px solid;
+}
+
+.final-section h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+    margin-left: 10%;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.final-section p {
+    margin-left: 10%;
+    max-width: 40%;
+}
+
+.number-section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: rgb(0, 61, 82);
+}
+
+iframe {
+    margin-top: 40px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: rgb(11, 33, 43);
+    height: 60px;
+}
+
+footer p {
+    position: relative;
+    top: 20px;
+    color: rgba(255, 255, 255, 0.575);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
